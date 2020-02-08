@@ -10,14 +10,14 @@ In this project, to improve the quality of the HTML code, non-semantic elements 
 Semantic elements outline page structure and provide meaning to the content within each element, therefore by replacing existing non-semantic elements the site accessibility, search engine optimization and readability are improved.
  
 The following < div> tags were replaced with semantic elements: 
-Original non-semantic elements | Semantic elements
+| Original non-semantic elements | Semantic elements|
 ------------------|------------------
-< div class="header"> | < header>
-< div> *navigation bar content* </ div>|< nav> 
-< div class= "content"> |< article> 
-< div class="benefits">|< aside> 
-< div> elements within < main> and < aside>|< section> (class attributes remain the same however)
-< div class="footer">  |  < footer> 
+| < div class="header"> | < header> |
+| < div> *navigation bar content* </ div>|< nav> |
+| < div class= "content"> |< article>  |
+| < div class="benefits">|< aside> |
+| < div> elements within < main> and < aside>|< section> (class attributes remain the same however) |
+| < div class="footer">  |  < footer> |
  
 In the style.css file, the corresponding selectors were changed to reflect change in HTML tag name.
  
