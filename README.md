@@ -166,5 +166,18 @@ In the original stylesheet, the three images within < article >  were identified
 ```
  
 In the above, '.float-left' also applies to '.search-engine-optimization img' and '.social-media-marketing img'. Similarly 'float-right' also applies to '.online-reputation-management img'. 
-To simplify and improve readability of the CSS file, properties from the first 3 selectors were incorporated into their respective bottom 2 selectors. 
+To simplify and improve readability of the CSS file, properties from the first 3 selectors were incorporated into their respective bottom 2 selectors as shown below:
+```
+.float-left {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+    max-height: 200px;
+}
+```
  
